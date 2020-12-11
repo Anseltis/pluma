@@ -7,6 +7,8 @@ module.exports = {
     filename: "[name].[contenthash].js",
     path: paths.distPath,
     publicPath: "/",
+    library: 'something',
+    libraryTarget: 'var'
   },
   plugins: [
     new HtmlWebpackPlugin({
