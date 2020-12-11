@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "declaration": false,
+        "esModuleInterop": true,
+        "target": "es6",
+        "jsx": "react",
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "types": ["node", "./@types"]
+    },
+    "include": ["./src/**/*"]
+}
